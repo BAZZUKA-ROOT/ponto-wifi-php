@@ -1,0 +1,29 @@
+INSTALAÇÃO LIMPA - PONTO WI-FI
+
+1) Copie TODOS os arquivos desta pasta para:
+C:\xampp\htdocs\ponto
+
+2) Abra no navegador do PC:
+http://localhost/ponto/api_ping.php
+
+Tem que aparecer ok:true.
+
+3) Abra:
+http://localhost/ponto/configuracoes.php
+
+4) Em "IP do PC da loja", coloque o IPv4 do PC. Pelo seu teste deve ser:
+192.168.0.100
+
+5) Rode o leitor:
+C:\xampp\htdocs\ponto\leitor_windows\iniciar_leitor.bat
+
+6) Para cadastrar celular:
+- Vá em Configurações.
+- Cadastre o funcionário.
+- Em "Cadastrar celular pelo próprio celular", escolha o funcionário e clique em Gerar link.
+- Abra o link no celular do funcionário conectado ao Wi-Fi da loja.
+- Aguarde o leitor escanear.
+- O sistema vincula sozinho.
+
+IMPORTANTE:
+No celular, desative MAC privado/aleatório na rede Wi-Fi da loja.

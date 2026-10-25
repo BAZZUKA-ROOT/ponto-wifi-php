@@ -1,0 +1,1 @@
+<?php require 'config.php'; header('Content-Type: application/json; charset=utf-8'); echo json_encode(['ok'=>true,'token'=>token_atual(),'hora'=>now(),'timezone'=>date_default_timezone_get()], JSON_UNESCAPED_UNICODE);
